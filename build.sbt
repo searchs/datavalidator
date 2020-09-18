@@ -3,7 +3,7 @@ lazy val scalaTestDep = "org.scalatest" %% "scalatest" % "3.1.1"
 
 lazy val datavalidator = (project in file("."))
 	.settings(
-		organization := "com.example",
+		organization := "com.katchstyle.analytics",
 		name := "datavalidator",
 		version := "1.0",
 		scalaVersion := "2.11.8",
